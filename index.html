@@ -76,10 +76,52 @@
              <button class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm 
              text-sm font-bold">Log in</button>
              <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
-             bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500">Sign Up</button>   
+             bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:flex">
+             Sign Up
+             <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                class="w-[14px] h-[14px] ml-3 mt-1"
+                >
+                <path
+                 fill="currentColor"
+                 d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                  ></path>
+                  </svg>
+            </button>   
              </div>
         </div>
 
     </nav>
+    <!--HERO SECTION-->
+    <section class=" relative bg-deepBlue">
+
+        <div class=" w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto ">
+
+            <!--left SECTION-->
+        <div class="space-y-8"> 
+            <h1 class="font-mullish font-bold text-[40px] leading -[1.2] text-white">Power your finance, grow your business</h1>
+            <div class="w-6 h-1 bg-greenLight"></div>
+
+            <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+                Accept payments from customers. Automate payouts to vendors & empolyees. 
+                Never run out of working capital
+            </p>
+
+            <button
+            class="bg-lightBlue text-white rounded-md py-[14px] px-[18px] font-mullish font-bold hover:bg-lightBlue500 
+            transition-all duration-200 ">Sign Up Now</button>
+        </div>
+
+            <!--right section-->
+                <img 
+                class=" w-full max-w-[680px]" src="./image/hero-illustration.jpg" alt="">
+            </div>
+              <!--Shape section-->
+              <div class=" w-[103%] absolute left-0 right-0">  <!--left or right 0 means a image cover or streched full width on both side -->
+                <img src="./image/hero-shape.svg" alt=""
+                class="w-full object-fill scale-x-100">
+              </div>
+    </section>
 </body>
 </html>
